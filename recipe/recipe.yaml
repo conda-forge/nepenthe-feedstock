@@ -1,5 +1,5 @@
 context:
-  version: "0.1.1"
+  version: "0.1.2"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/nepenthe/nepenthe-${{ version }}.tar.gz
-  sha256: ddf2e81d2ddd7d19b2c4e167c1f6dc89cf48b8fdb1c86351f227eb94c7c2c10b
+  sha256: 79b7e3800cda97c363eea9cf092a4da1c3df047aad642762570fdd883bbbbf41
 
 build:
   number: 0
