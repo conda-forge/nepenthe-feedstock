@@ -11,7 +11,7 @@ source:
   sha256: 79b7e3800cda97c363eea9cf092a4da1c3df047aad642762570fdd883bbbbf41
 
 build:
-  number: 1
+  number: 2
   python:
     version_independent: true
   script:
@@ -26,7 +26,7 @@ requirements:
   build:
     - if: build_platform != target_platform
       then:
-        - python
+        - python ${{ python_min }}.*
         - cross-python_${{ target_platform }}
         - crossenv
         - hatchling
