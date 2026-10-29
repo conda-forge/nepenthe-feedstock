@@ -1,5 +1,5 @@
 context:
-  version: "0.2.0"
+  version: "0.2.1"
 
 package:
   name: nepenthe
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/nepenthe/nepenthe-${{ version }}.tar.gz
-  sha256: 76fc88d48fb8d20cbf295717277dc8f288aef6205f06a141e035021a7669e386
+  sha256: cb76847b1392cf368deed60fb5330713dd44c95c2e94f9ba2ce0231a1c996ae4
 
 build:
   number: 0
